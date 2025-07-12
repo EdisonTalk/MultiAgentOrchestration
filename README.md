@@ -1,12 +1,15 @@
-# MultiAgentSamples
-A sample project to show how to create Multiple AI Agents by Semantic Kernel related packages and LLM APIs.
+# Multi Agents Orchestration Samples
+A sample project to show how to coordinate Multiple AI Agents by Semantic Kernel related packages and LLM APIs.  
+![Single-VS-Multi](doc/single-vs-multi.png)  
 
 ## Solution Structure
-- Share Library: CommonShared
+- Shared Library: CommonShared
 - Demo1: AgentGroupChat
+- Demo2: Concurrent Mode
 
 ## Related Blogs
-TBD
+- [QuickStart-AgentGroupChat](https://www.cnblogs.com/edisontalk/p/-/quick-start-agent-orchestration-agentgroupchat)
+- [QuickStart-Concurrent Mode](https://www.cnblogs.com/edisontalk/p/-/quick-start-agent-orchestration-concurrent)
 
 ## Contact Me
 Blog: https://edisontalk.cnblogs.com  
