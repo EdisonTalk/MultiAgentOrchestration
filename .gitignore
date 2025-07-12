@@ -110,3 +110,4 @@ UpgradeLog*.XML
 
 /src/.vs/
 /src/AgentGroupChat/appsettings.Secrets.json
+/src/ConcurrentMode/appsettings.Secrets.json

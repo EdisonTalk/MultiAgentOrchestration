@@ -14,6 +14,7 @@ var config = new ConfigurationBuilder()
     .AddJsonFile($"appsettings.Secrets.json", optional: true, reloadOnChange: true)
 #endif
     .Build();
+
 Console.WriteLine("Now loading the chat client...");
 var chattingApiConfiguration = new OpenAiConfiguration(
             config.GetSection("LLM:MODEL_ID").Value,
@@ -65,7 +66,7 @@ var terminationFunction =
         {{${{{KernelFunctionTerminationStrategy.DefaultHistoryVariableName}}}}}
         """);
 
-// Create AgentGroupChat
+// Initialize AgentGroupChat
 var historyReducer = new ChatHistoryTruncationReducer(1);
 var groupChat = new AgentGroupChat(reviewerAgent, writerAgent)
 {
