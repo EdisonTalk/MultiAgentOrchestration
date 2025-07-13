@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Concurrent", "03.Concurr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentModeDemo", "ConcurrentMode\ConcurrentModeDemo.csproj", "{D3DE0674-79CA-4467-821A-2B962FEE5DCD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Sequential", "04.Sequential", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequentialModeDemo", "SequentialMode\SequentialModeDemo.csproj", "{86B8CDB9-5C61-700F-2E5A-3C774D93471C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{D3DE0674-79CA-4467-821A-2B962FEE5DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3DE0674-79CA-4467-821A-2B962FEE5DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3DE0674-79CA-4467-821A-2B962FEE5DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B8CDB9-5C61-700F-2E5A-3C774D93471C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B8CDB9-5C61-700F-2E5A-3C774D93471C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B8CDB9-5C61-700F-2E5A-3C774D93471C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B8CDB9-5C61-700F-2E5A-3C774D93471C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +55,7 @@ Global
 		{AE4F5034-F3F9-43DE-8154-1EC22B88F34A} = {A94D7C9A-0FD2-4A6B-9DA9-191CC213230E}
 		{6FE711EC-0728-4DE9-80A5-D1B1C28367B4} = {DD21FA39-C6F3-4FC6-9F4D-4548A9A813B9}
 		{D3DE0674-79CA-4467-821A-2B962FEE5DCD} = {303F1C08-8D37-4744-B71C-120C0D34C6FA}
+		{86B8CDB9-5C61-700F-2E5A-3C774D93471C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {963A895C-0BB4-4BEC-B53D-6B44256D8117}

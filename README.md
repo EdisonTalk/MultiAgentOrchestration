@@ -6,10 +6,12 @@ A sample project to show how to coordinate Multiple AI Agents by Semantic Kernel
 - Shared Library: CommonShared
 - Demo1: AgentGroupChat
 - Demo2: Concurrent Mode
+- Demo3: Sequential Mode
 
 ## Related Blogs
 - [QuickStart-AgentGroupChat](https://www.cnblogs.com/edisontalk/p/-/quick-start-agent-orchestration-agentgroupchat)
 - [QuickStart-Concurrent Mode](https://www.cnblogs.com/edisontalk/p/-/quick-start-agent-orchestration-concurrent)
+- [QuickStart-Sequential Mode](https://www.cnblogs.com/edisontalk/p/-/quick-start-agent-orchestration-sequential)
 
 ## Contact Me
 Blog: https://edisontalk.cnblogs.com  
