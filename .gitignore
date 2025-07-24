@@ -112,3 +112,4 @@ UpgradeLog*.XML
 /src/AgentGroupChat/appsettings.Secrets.json
 /src/ConcurrentMode/appsettings.Secrets.json
 /src/SequentialMode/appsettings.Secrets.json
+/src/GroupChatMode/appsettings.Secrets.json

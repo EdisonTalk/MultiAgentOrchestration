@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.AgentGroupChat", "02.AgentGroupChat", "{DD21FA39-C6F3-4FC6-9F4D-4548A9A813B9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.AgentChat", "02.AgentChat", "{DD21FA39-C6F3-4FC6-9F4D-4548A9A813B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.SolutionItems", "00.SolutionItems", "{21FBDD66-35C6-4ED7-BED7-F510529BC42A}"
 	ProjectSection(SolutionItems) = preProject
@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Shared", "01.Shared", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonShared", "CommonShared\CommonShared.csproj", "{AE4F5034-F3F9-43DE-8154-1EC22B88F34A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgentGroupChatDemo", "AgentGroupChat\AgentGroupChatDemo.csproj", "{6FE711EC-0728-4DE9-80A5-D1B1C28367B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgentGroupChatDemo", "AgentChat\AgentGroupChatDemo.csproj", "{6FE711EC-0728-4DE9-80A5-D1B1C28367B4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Concurrent", "03.Concurrent", "{303F1C08-8D37-4744-B71C-120C0D34C6FA}"
 EndProject
@@ -24,6 +24,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Sequential", "04.Sequential", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequentialModeDemo", "SequentialMode\SequentialModeDemo.csproj", "{86B8CDB9-5C61-700F-2E5A-3C774D93471C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.GroupChat", "05.GroupChat", "{8497FA46-2348-4381-AA52-C73BD5ADB07F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupChatModeDemo", "GroupChatMode\GroupChatModeDemo.csproj", "{78E0A0E9-7D55-1CC3-E7EC-B358A2BD8AED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{86B8CDB9-5C61-700F-2E5A-3C774D93471C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86B8CDB9-5C61-700F-2E5A-3C774D93471C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86B8CDB9-5C61-700F-2E5A-3C774D93471C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E0A0E9-7D55-1CC3-E7EC-B358A2BD8AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E0A0E9-7D55-1CC3-E7EC-B358A2BD8AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E0A0E9-7D55-1CC3-E7EC-B358A2BD8AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E0A0E9-7D55-1CC3-E7EC-B358A2BD8AED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,7 @@ Global
 		{6FE711EC-0728-4DE9-80A5-D1B1C28367B4} = {DD21FA39-C6F3-4FC6-9F4D-4548A9A813B9}
 		{D3DE0674-79CA-4467-821A-2B962FEE5DCD} = {303F1C08-8D37-4744-B71C-120C0D34C6FA}
 		{86B8CDB9-5C61-700F-2E5A-3C774D93471C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{78E0A0E9-7D55-1CC3-E7EC-B358A2BD8AED} = {8497FA46-2348-4381-AA52-C73BD5ADB07F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {963A895C-0BB4-4BEC-B53D-6B44256D8117}
