@@ -63,7 +63,7 @@ ValueTask responseCallback(ChatMessageContent response)
 // Use RoundRobinGroupChatManager to manage the conversation flow
 const string topic = "Create a slogan for a new electric SUV that is affordable and fun to drive.";
 var orchestration = new GroupChatOrchestration(
-    new RoundRobinGroupChatManager { MaximumInvocationCount = 5 }, // Maximum 5 rounds of conversation
+    new RoundRobinGroupChatManager { MaximumInvocationCount = 5 },
     writerAgent,
     editorAgent)
 {

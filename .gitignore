@@ -113,3 +113,4 @@ UpgradeLog*.XML
 /src/ConcurrentMode/appsettings.Secrets.json
 /src/SequentialMode/appsettings.Secrets.json
 /src/GroupChatMode/appsettings.Secrets.json
+/src/HandoffMode/appsettings.Secrets.json
